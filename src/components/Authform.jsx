@@ -11,7 +11,6 @@ const AuthForm = () => {
 
   const navigate = useNavigate();
 
-  // ✅ FRONTEND LOGIN
   const handleLogin = (e) => {
     e.preventDefault();
 
@@ -24,7 +23,6 @@ const AuthForm = () => {
     navigate('/home');
   };
 
-  // ✅ FRONTEND REGISTER
   const handleRegister = (e) => {
     e.preventDefault();
 
